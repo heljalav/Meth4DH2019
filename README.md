@@ -1,2 +1,6 @@
-# Meth4DH2019
-Final Project for Methods in Digital Humanities, Fall 2019
+# Meth4DH2019 - Final Project for Methods in Digital Humanities, Fall 2019
+This is a repository for a project on the diaries of John Quincy Adams (1867-1848). The project was the final project assignment for the course Introduction to methods in Digital Humanities at the University of Helsinki in the fall of 2019. The repository presents my work in going from a humanities question and a corresponding dataset to a computationally assisted answer to the question. The aim was to create a full pipeline from data to results, to present the choices made, and to discuss the reliability of the analysis and results. 
+# Humanities Research Question
+My general research question is: what distinguishes the different careers and periods in the life of John Quincy Adams in his own views, based on his diaries. In this project, I apply topic modeling and the more specific question is whether there are systematic changes in word use that would denote shifting concerns and the evolution of Adams's political thought over different periods in his life and career(s). The simplest way to explore this is to identify topics that distinguish the careers and periods. Because historical events naturally distinguish different periods via (historical) context-specific word use, ambiguity and continuity are more interesting than clearly delimited topics. The "careers" refer to his diplomatic and foreign policy career, and his congressional career after his presidency, when his political views on slavery, for instance, changed dramatically.
+# Data
+My data is the selection of Adams's diaries published by his son, Charles Francis Adams, in the 1870s, as these are openly available.
