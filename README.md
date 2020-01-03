@@ -12,8 +12,13 @@ For the purposes of this project and getting a complete pipeline to work with, I
   3b. To identify and create subsets by calendar year I manually found the first and last entries for each year and created a txt file for each one (named YEAR.txt). First years are very short, the final years (1846-8) was merged into the last file (1846.txt) because of sparsity,
   4. I used Python to programmatically remove headers from the data: the headers appear in the edited volumes on all pages and thus appear in the middle of entries.
   5. Final processing and computational analysis in R using stm package - discussed separately below. Pre-processing in this step includes removing stopwords (using the default list in the stm package). I did not remove numbers/digits or transform everything to lowercase: I wanted to see whether including digits (all entries start with a date, so I assume the distribution to be even) would provide any information through the topic model, and I wanted to preserve information about proper nouns (upper case) even though I could not account for sentence case (sentence-initial upper case).
-  
+ 
+ # Analysis & results
+ 
  # Critical Analysis of Pipeline
-  hyphenation
-  subsets
+  quality of data: hyphenation, footnotes
+  quality of analysis: subsets
+  
+  NOTE ON WORK: started working with Python and aiming for Mallet, ended up using R and stm, which does many pre-processing steps as a default = my work with tokenization again useless, for example.
+  non included: work on creating structure (regexes, NER to get dates), tokenization, encoding & decoding problems, work on footnotes
   
