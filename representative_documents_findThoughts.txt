@@ -1,0 +1,83 @@
+findThoughts(JQAtest, data$doc_id, topics=1:20)
+# Representative documents for all topics - superficial 
+
+Topic 1: 
+ 	 1818.txt
+ 	1800.txt
+ 	1819.txt 
+ Topic 2: 
+ 	 1839.txt
+ 	1802.txt
+ 	1821.txt 
+ Topic 3: 
+ 	 1826.txt
+ 	1827.txt
+ 	1801.txt 
+ Topic 4: 
+ 	 1834.txt
+ 	1832.txt
+ 	1836.txt 
+ Topic 5: 
+ 	 1810.txt
+ 	1811.txt
+ 	1799.txt 
+ Topic 6: 
+ 	 1813.txt
+ 	1812.txt
+ 	1811.txt 
+ Topic 7: 
+ 	 1796.txt
+ 	1820.txt
+ 	1800.txt 
+ Topic 8: 
+ 	 1805.txt
+ 	1804.txt
+ 	1803.txt 
+ Topic 9: 
+ 	 1798.txt
+ 	1797.txt
+ 	1799.txt 
+ Topic 10: 
+ 	 1822.txt
+ 	1823.txt
+ 	1821.txt 
+ Topic 11: 
+ 	 1806.txt
+ 	1807.txt
+ 	1808.txt 
+ Topic 12: 
+ 	 1844.txt
+ 	1843.txt
+ 	1846.txt 
+ Topic 13: 
+ 	 1809.txt
+ 	1801.txt
+ 	1797.txt 
+ Topic 14: 
+ 	 1831.txt
+ 	1830.txt
+ 	1829.txt 
+ Topic 15: 
+ 	 1816.txt
+ 	1817.txt
+ 	1815.txt 
+ Topic 16: 
+ 	 1837.txt
+ 	1835.txt
+ 	1838.txt 
+ Topic 17: 
+ 	 1814.txt
+ 	1815.txt
+ 	1800.txt 
+ Topic 18: 
+ 	 1795.txt
+ 	1794.txt
+ 	1800.txt 
+ Topic 19: 
+ 	 1825.txt
+ 	1828.txt
+ 	1824.txt 
+ Topic 20: 
+ 	 1842.txt
+ 	1841.txt
+ 	1840.txt
