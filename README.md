@@ -1,3 +1,8 @@
+
+
+[![DOI](https://zenodo.org/badge/231537514.svg)](https://zenodo.org/badge/latestdoi/231537514)
+
+
 # Meth4DH2019 - Final Project for Methods in Digital Humanities, Fall 2019
 This is a repository for a project on the diaries of John Quincy Adams (1867-1848). The project was the final project assignment for the course Introduction to methods in Digital Humanities at the University of Helsinki in the fall of 2019. The repository presents my work in going from a humanities question and a corresponding dataset to a computationally assisted answer to the question. The aim was to create a full pipeline from data to results, to present the choices made, and to discuss the reliability of the analysis and results. 
 # Humanities Research Question
