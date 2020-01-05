@@ -2,12 +2,13 @@ library(stm)
 library(readtext)
 
 
-folder_in <- "C:\\users\\lenovo\\documents\\JQA_modeling\\pre_processed"
+#Assuming the data is in a folder "pre_processed" in the current working directory:
+folder_in <- file.path(getwd(), "pre_processed")
 
 #Using readtext library, opens the files in the input folder: the resulting object is a data frame with 
 # columns doc_id (file name), text, and a variable name consisting of the year (created from the file name)
 # This can then be used as input for the stm functions.
-data <- readtext("C:\\users\\lenovo\\documents\\JQA_modeling\\pre_processed\\*.txt",  docvarsfrom = "filenames")
+data <- readtext(file.path(folder_in,"*.txt"),  docvarsfrom = "filenames")
 
 # 2 -----------------------------------------------------------------------
 
@@ -29,6 +30,8 @@ out <- prepDocuments(processed$documents, processed$vocab,
 
 #stm does the actual modeling: Spectral initialization should (in my understanding) enable 
 #reproducibility of the results. (An alternative is to set a specific seed manually.)
+
+#The test presented here is made with the dreadful default of 20 topics (= K)
 
 JQAtest <- stm(documents = out$documents, vocab = out$vocab,
                K = 20, max.em.its = 75,
